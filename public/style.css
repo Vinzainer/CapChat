@@ -1,0 +1,61 @@
+h1 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  background-color: black;
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+.progress {
+  margin:  auto;
+}
+
+body {
+
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0,0,0,0);
+}
+
+button {
+  border: 0;
+  background: rgba(150,150,150,0.6);
+  text-shadow: 1px 1px 1px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+.thumb-bar {
+  margin: auto;
+  width: 400px;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  float: left;
+  cursor: pointer;
+}
